@@ -1,11 +1,10 @@
 # purifyMe
 Just keep the CSS elements that your HTML uses.
 
-Install
+<h1>Install</h1><br>
 npm install --save purify-css
 
-Please modify the App.js file with the path to your HTML/CSS
-//
+<h2>Please modify the App.js file with the path to your HTML/CSS</h2><br>
 
 var purify = require('purify-css');
 

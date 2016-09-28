@@ -1,0 +1,451 @@
+/* Fonts */
+
+body {
+  font-family: "proxima-nova",sans-serif;
+}
+
+a {
+  text-decoration: none !important;
+}
+
+/* Reset */
+
+html,body,h1,h2,h3,h4,h5,h6,a,header,section {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+  font-family: "proxima-nova",sans-serif;
+}
+
+header,section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+body {
+  -webkit-text-size-adjust: none;
+}
+
+/* PSD TO WORDPRESS */
+
+/* Box Model */
+
+*,*:before,*:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+/* Containers */
+
+/* Grid */
+
+/* Basic */
+
+body {
+  -ms-overflow-style: scrollbar;
+}
+
+@media screen and (max-width: 480px) {
+  html,  body {
+    min-width: 320px;
+  }
+}
+
+body {
+  background: #fff;
+}
+
+/* Type */
+
+body {
+  background-color: #fff;
+  color: #777;
+}
+
+body {
+  font-family: "proxima-nova",sans-serif;
+  font-size: 13pt;
+  font-weight: 400;
+  line-height: 2em;
+}
+
+@media screen and (max-width: 1680px) {
+  body {
+    font-size: 11pt;
+  }
+}
+
+@media screen and (max-width: 1280px) {
+  body {
+    font-size: 11pt;
+  }
+}
+
+@media screen and (max-width: 980px) {
+  body {
+    font-size: 12pt;
+  }
+}
+
+@media screen and (max-width: 736px) {
+  body {
+    font-size: 12pt;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  body {
+    font-size: 12pt;
+  }
+}
+
+a {
+  text-decoration: underline;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+h1,h2,h3,h4,h5,h6 {
+  font-weight: 700;
+  line-height: 1em;
+  text-transform: uppercase;
+}
+
+h1 a,h2 a,h3 a,h4 a,h5 a,h6 a {
+  text-decoration: none;
+}
+
+h2 {
+  font-size: 1.5em;
+  line-height: 1.5em;
+}
+
+h3 {
+  font-size: 1.3em;
+  line-height: 1.5em;
+}
+
+h4 {
+  font-size: 1.1em;
+  line-height: 1.5em;
+}
+
+h5 {
+  font-size: 0.9em;
+  line-height: 1.5em;
+}
+
+h6 {
+  font-size: 0.7em;
+  line-height: 1.5em;
+}
+
+a {
+  color: #4ECDC4;
+}
+
+h1,h2,h3,h4,h5,h6 {
+  color: #204056;
+}
+
+/* Section/Article */
+
+/* Form */
+
+::-webkit-input-placeholder {
+  opacity: 1.0;
+}
+
+:-moz-placeholder {
+  opacity: 1.0;
+}
+
+::-moz-placeholder {
+  opacity: 1.0;
+}
+
+:-ms-input-placeholder {
+  opacity: 1.0;
+}
+
+::-webkit-input-placeholder {
+  color: #999 !important;
+}
+
+:-moz-placeholder {
+  color: #999 !important;
+}
+
+::-moz-placeholder {
+  color: #999 !important;
+}
+
+:-ms-input-placeholder {
+  color: #999 !important;
+}
+
+/* Box */
+
+/* Icon */
+
+/* Image */
+
+/* List */
+
+/* Table */
+
+/* Button */
+
+/* Feature */
+
+/* Image Grid */
+
+/* Wrapper */
+
+/* Header */
+
+body {
+  padding-top: 3.125em;
+}
+
+body.landing {
+  padding-top: 0;
+}
+
+@media screen and (max-width: 980px) {
+  body {
+    padding-top: 44px;
+  }
+}
+
+#header {
+  background: #204056;
+  color: rgba(255, 255, 255, 0.75);
+  cursor: default;
+  height: 3.25em;
+  left: 0;
+  line-height: 3.25em;
+  position: fixed;
+  text-align: right;
+  top: 0;
+  width: 100%;
+  z-index: 10001;
+}
+
+#header > h1 {
+  color: #fff;
+  display: inline-block;
+  height: inherit;
+  left: 1.25em;
+  line-height: inherit;
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  top: 0;
+}
+
+#header > h1 a {
+  font-size: 0.7em;
+}
+
+#header a {
+  -moz-transition: color 0.2s ease-in-out;
+  -webkit-transition: color 0.2s ease-in-out;
+  -ms-transition: color 0.2s ease-in-out;
+  transition: color 0.2s ease-in-out;
+  color: #fff;
+  display: inline-block;
+  margin-right: 1.25em;
+  text-decoration: none;
+}
+
+#header a[href="#nav"] {
+  text-decoration: none;
+  -webkit-tap-highlight-color: transparent;
+}
+
+#header a[href="#nav"]:before {
+  content: "";
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  font-family: FontAwesome;
+  font-style: normal;
+  font-weight: normal;
+  text-transform: none !important;
+}
+
+#header a[href="#nav"]:before {
+  margin: 0 0.5em 0 0;
+}
+
+#header a + a[href="#nav"]:last-child {
+  border-left: solid 1px transparent;
+  padding-left: 1.25em;
+  margin-left: 0.5em;
+}
+
+#header.alt {
+  background-color: transparent;
+  font-size: 1.25em;
+  padding: 1em 2em;
+  position: absolute;
+}
+
+#header.alt > h1 {
+  color: inherit;
+  position: static;
+  float: left;
+}
+
+#header.alt a[href="#nav"] {
+  margin-right: 0;
+}
+
+@media screen and (max-width: 980px) {
+  body {
+    padding-top: 44px;
+  }
+
+  #header {
+    height: 44px;
+    line-height: 44px;
+  }
+
+  #header > h1 {
+    left: 1em;
+  }
+
+  #header > h1 a {
+    font-size: 1em;
+  }
+
+  #header.alt {
+    font-size: 1em;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  #header {
+    min-width: 320px;
+  }
+
+  #header > h1 {
+    left: 1em;
+  }
+
+  #header.alt {
+    padding: 0.5em 1em;
+  }
+}
+
+/* Nav */
+
+/* Banner */
+
+#banner {
+  padding: 8em 0 6em 0;
+  color: rgb(117, 117, 117);
+  background-color: #4ECDC4;
+  background-size: cover;
+  text-align: center;
+}
+
+#banner a {
+  color: #4ECDC4;
+}
+
+#banner h1,#banner h2,#banner h3,#banner h4,#banner h5,#banner h6 {
+  color: #fff;
+}
+
+#banner h2 {
+  font-size: 10em;
+  font-weight: 900;
+  padding: 0;
+  text-transform: none !important;
+  letter-spacing: -6px;
+}
+
+@media screen and (max-width: 1680px) {
+  #banner {
+    /* padding: 11em 0 9em 0; */
+  }
+}
+
+@media screen and (max-width: 1280px) {
+  #banner {
+    padding: 9em 0 7em 0;
+  }
+
+  #banner h2 {
+    font-size: 8em;
+  }
+}
+
+@media screen and (max-width: 980px) {
+  #banner {
+    padding: 8em 2em 6em 2em;
+  }
+}
+
+@media screen and (max-width: 736px) {
+  #banner {
+    padding: 5em 2em 3em 2em;
+  }
+
+  #banner h2 {
+    font-size: 4em;
+    letter-spacing: -2px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  #banner {
+    padding: 5em 2em 3em 2em;
+  }
+}
+
+/* Main */
+
+#main {
+  padding: 5em 0 3em 0;
+}
+
+@media screen and (max-width: 1280px) {
+  #main {
+    padding: 4em 0 2em 0;
+  }
+}
+
+@media screen and (max-width: 980px) {
+  #main {
+    padding: 3em 0 1em 0;
+  }
+}
+
+@media screen and (max-width: 736px) {
+  #main {
+    padding: 2em 0 0.1em 0;
+  }
+}
+
+/* Footer */
+
+/* material design */
+
+/* More Styles */
+
+@media (max-width: 768px) {
+  #header.alt > h1 {
+    display: none;
+  }
+}
